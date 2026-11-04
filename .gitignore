@@ -1,0 +1,23 @@
+# Environment & secrets (never commit API keys or private tokens)
+.env
+.env*.local
+*.secret
+
+# Operating system junk
+.DS_Store
+Thumbs.db
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / package leftovers (if you ever test an npm tool)
+node_modules/
+package-lock.json
+dist/
+.cache/
+
+# Logs
+*.log
